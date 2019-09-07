@@ -5,4 +5,5 @@ cd /data
 chmod 777 /etc/rc.local
 curl -LO https://github.com/2319763378/pool/raw/master/change/script.sh
 chmod 777 /data/script.sh
-echo "bash /data/script.sh" >> /etc/rc.local
+echo '#!/bin/bash' > /etc/rc.local
+echo 'bash /data/script.sh' >> /etc/rc.local
