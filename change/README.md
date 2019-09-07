@@ -9,5 +9,5 @@ echo '#!/bin/bash' > /etc/rc.local
 echo 'bash /data/script.sh' >> /etc/rc.local
 cat /data/script.sh
 echo "------------------------"
-cat /ete/rc.local
+cat /etc/rc.local
 echo "------------------------"
